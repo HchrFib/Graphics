@@ -35,7 +35,6 @@ void main()
 
     //pasamos las coordenadas entre 0 y 2
     vertex_NDC = vertex_NDC +1;
-    // no podemos hacer (maxY - minY)/4.0, porque estas variables no estan en NDC, estan en coordenadas de modelo
     float trozo = (1.0 - (-1.0))/4.0;
     
     float k = vertex_NDC.y/trozo;

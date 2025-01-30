@@ -1,0 +1,3 @@
+1. open shader
+2. scene → load object → plane.obj 
+3. add texture → pacman2.png
